@@ -174,9 +174,9 @@ if model is not None:
 
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.image(pil_img, caption="원본 이미지", use_column_width=True)
+                    st.image(pil_img, caption="원본 이미지", use_container_width=True)
                 with col2:
-                    st.image(superimposed_img, caption="Grad-CAM 분석 결과", use_column_width=True)
+                    st.image(superimposed_img, caption="Grad-CAM 분석 결과", use_container_width=True)
 
                 st.info("""
                 **Grad-CAM 해석:**
